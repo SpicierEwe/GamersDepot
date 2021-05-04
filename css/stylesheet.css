@@ -1,0 +1,206 @@
+html{
+    /*  background-color:#899960;*/
+    background-image:url(../images/xboxcontroller.jpg );
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-blend-mode: exclusion;
+     transition-property: background-image;
+     transition:5s;
+
+
+
+}
+
+
+.mh{
+  text-align: center;
+  color:#E48F05;
+  margin-top: 20px;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-bottom: -5px;
+  /*border:3px dotted orange ;*/
+  background-color: rgba white;
+  padding: 20px;
+  box-sizing: border-box;
+  font-weight: lighter;
+  font-family: Julius;
+  text-shadow: 3px 5px 10px #999999;
+
+
+}
+.sh{
+  color: #E60A8B;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color:rgba white;
+  padding:10px 10px;
+  margin-top:-5px;
+  box-sizing: border-box;
+  border-radius: 50px;
+  font-weight: lighter;
+}
+
+.b1{
+  border-bottom: :5px solid red ;
+}
+
+
+ /*site nav.........................................................*/
+ .sitenav{
+
+ }
+
+.sitenav ul{
+      list-style: none;
+
+      margin:0;
+
+
+}
+.sitenav li{
+
+
+           float:left;
+          padding-left: 60px;    /*controlss spacing between list items*/
+          padding-right: 60px;   /*controlss spacing between list items*/
+         box-sizing: border-box;
+
+
+
+
+}
+
+.sitenav a {       /*it mainly controls all the sitenav together*/
+          display: block;
+          text-decoration:none;
+        /*  border: 2px solid orange;*/
+          border-bottom: none;
+            /*border-left: 2px solid black;
+          border-right: 2px solid black;*/
+          border-radius:50px;
+
+          padding: 20px;
+          padding-top: 15px;
+          padding-bottom: 10px;
+          margin-left: 35px;
+          margin-right: 10px;
+          box-sizing: border-box;
+          color: red;
+          background-color: rgba white;
+          margin-bottom: -1px;
+          font-style: italic;
+          transition-property: all;
+          transition:2s;
+          transition-property:background-color;
+          transition: 1s;
+
+
+
+
+
+
+
+}
+.sitenav a:hover{
+   /*background-color:#064F7A;*/
+   background-color: rgba(255, 0, 0, 0.3);
+
+
+}
+
+.navborder{
+  /*  border-bottom: 5px solid black;  */
+
+  box-sizing: border-box;
+
+}
+.fix{
+    clear: both;
+}
+                   /*site nav end..........................*/
+
+.container{
+ /*background-color: brown;*/
+}
+
+
+.welcome{                    /*Welcome to our website*/
+  text-align: center;
+  text-decoration:none;
+  font-weight:bold;
+  font-family:Comfortaa;
+  color: #B78901;
+  text-shadow: ;
+  font-weight: lighter;
+}                      /* END Welcome to our website*/
+
+/**/
+.galaxy{                             /* class contains (This is our Family & galaxy img) used to create border*/
+   /*border-top:5px solid black;*/
+  /* border: 2px solid black;
+   border-bottom: 2px solid black;
+   border-radius: 50px;*/
+    display: block;
+     max-width: 900px;
+     margin-left: auto;
+     margin-right: auto;
+     color: #869960;
+     margin-top: 10px;
+
+
+}
+.intro{
+  display: block;
+  background-color: rbga white;
+  /*border: 2px dotted black;*/
+  border-radius: 50px;
+  /*border-left: none;*/
+  margin-right: 700px;
+  margin-left: 25px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition-property: all;
+  transition: 2s;
+}
+.introborder{               /* used to creae border under Introduction  */
+  border-bottom: 3px solid black;
+}
+
+.family{                             /* class contains This is our Family */
+         float: left;
+         margin-left: 200px;
+         margin-right: 50px;
+
+}
+
+.photo{                              /* class contains galaxy image */
+  margin-bottom: 5px;
+  margin-top: -5px;
+  display: block;
+  padding-top: 20px;
+
+}
+
+.fix2{
+      clear:both;
+
+}
+
+.infinite{
+  list-style-type: none;
+  margin-left: -90px;
+
+}
+
+
+footer{
+  color: #C60D00;
+      text-align: center;
+      text-decoration: overline;
+      text-decoration: underline;
+}
