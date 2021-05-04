@@ -11,6 +11,14 @@ html{
 
 
 }
+ @media screen and (min-width: 800px){
+	 
+	.phone{
+		width:auto;
+		float:none;
+	}
+ }
+ 
 
 
 .mh{
@@ -43,6 +51,7 @@ html{
   border-radius: 50px;
   font-weight: lighter;
 }
+
 
 .b1{
   border-bottom: :5px solid red ;
