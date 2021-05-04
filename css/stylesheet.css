@@ -11,14 +11,7 @@ html{
 
 
 }
- @media screen and (min-width: 800px){
-	 
-	.phone{
-		width:auto;
-		float:none;
-	}
- }
- 
+
 
 
 .mh{
@@ -38,6 +31,16 @@ html{
 
 
 }
+
+ @media screen and (min-width: 800px){
+	 
+	 .mh,
+	.phone{
+		width:auto;
+		float:none;
+	}
+ }
+ 
 .sh{
   color: #E60A8B;
   text-align: center;
