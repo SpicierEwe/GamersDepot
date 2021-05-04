@@ -33,14 +33,14 @@ html{
 }
 
  @media screen and (min-width: 800px){
-	 
+
 	 .mh,
 	.phone{
 		width:auto;
 		float:none;
 	}
  }
- 
+
 .sh{
   color: #E60A8B;
   text-align: center;
@@ -108,7 +108,7 @@ html{
           transition-property: all;
           transition:2s;
           transition-property:background-color;
-          transition: 1s;
+          transition-duration:1s;
 
 
 
