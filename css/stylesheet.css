@@ -6,7 +6,7 @@ html{
      background-repeat: no-repeat;
      background-blend-mode: exclusion;
      transition-property: background-image;
-     transition:5s;
+     transition:2s;
 
 
 
@@ -106,9 +106,9 @@ html{
           margin-bottom: -1px;
           font-style: italic;
           transition-property: all;
-          transition:2s;
-          transition-property:background-color;
-          transition-duration:1s;
+          transition-duration: 3s;
+
+
 
 
 
@@ -120,6 +120,14 @@ html{
 .sitenav a:hover{
    /*background-color:#064F7A;*/
    background-color: rgba(255, 0, 0, 0.3);
+   color: orange;
+  /* transition-property:background-color;
+   transition-duration:1s;*/
+   transition-property: color,background-color;
+   transition-duration: 0.5s;
+
+
+
 
 
 }
