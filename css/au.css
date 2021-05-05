@@ -1,10 +1,13 @@
 html{
     /*  background-color:#899960;*/
-    background-image:url(../images/xboxcontroller.jpg );
+    background-image:url(../images/diamond.png );
      background-size: cover;
      background-position: center center;
      background-repeat: no-repeat;
      background-blend-mode: exclusion;
+     background-position: top center ;
+
+
      transition-property: background-image;
      transition:2s;
 
@@ -106,7 +109,7 @@ html{
           margin-bottom: -1px;
           font-style: italic;
           transition-property: all;
-          transition-duration: 2s;
+          transition-duration: 3s;
 
 
 
@@ -143,83 +146,31 @@ html{
 }
                    /*site nav end..........................*/
 
-.container{
- /*background-color: brown;*/
-}
-
-
-.welcome{                    /*Welcome to our website*/
+.comingsoon{
   text-align: center;
-  text-decoration:none;
-  font-weight:bold;
-  font-family:Comfortaa;
-  color: #B78901;
-  text-shadow: ;
-  font-weight: lighter;
-}                      /* END Welcome to our website*/
-
-/**/
-.galaxy{                             /* class contains (This is our Family & galaxy img) used to create border*/
-   /*border-top:5px solid black;*/
-  /* border: 2px solid black;
-   border-bottom: 2px solid black;
-   border-radius: 50px;*/
-    display: block;
-     max-width: 900px;
-     margin-left: auto;
-     margin-right: auto;
-     color: #869960;
-     margin-top: 10px;
-
+  font-size: 500%;
+}
+.developer{
+  text-align: center;
+  font-weight: bold;
 
 }
-.intro{
-  display: block;
-  background-color: rbga white;
-  /*border: 2px dotted black;*/
-  border-radius: 50px;
-  /*border-left: none;*/
-  margin-right: 700px;
-  margin-left: 25px;
+.developer dd{
+  margin-top: 10px;
   box-sizing: border-box;
-  padding-left: 20px;
-  padding-right: 20px;
-  transition-property: all;
-  transition: 2s;
+  padding: 5px;
+  font-family:'Josefin Sans',monospace;
+  font-size: 125%;
+  font-weight: bold;
 }
-.introborder{               /* used to creae border under Introduction  */
-  border-bottom: 3px solid black;
+.developer dt{
+  font-size: 200%;
+  font-family: 'Julius' ,sans-serif;
 }
-
-.family{                             /* class contains This is our Family */
-         float: left;
-         margin-left: 200px;
-         margin-right: 50px;
-
-}
-
-.photo{                              /* class contains galaxy image */
-  margin-bottom: 5px;
-  margin-top: -5px;
-  display: block;
-  padding-top: 20px;
-
-}
-
-.fix2{
-      clear:both;
-
-}
-
-.infinite{
-  list-style-type: none;
-  margin-left: -90px;
-
-}
-
 
 footer{
-  color: #C60D00;
+  color: red;
+  font-weight: bold;
       text-align: center;
       text-decoration: overline;
       text-decoration: underline;
